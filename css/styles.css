@@ -5,8 +5,9 @@
 */
 
 body {
-	background: url("../img/bg.png");
+	
 	font-family: "Lora", serif;
+	
 }
 
 h1, h3, h5 {
@@ -15,16 +16,46 @@ h1, h3, h5 {
 
 h2 {
 	text-indent: -1em;
-}
-
-
-.expChunkDate {
-	float: top right;
-	
+	margin-bottom: 0;
+	border-bottom: #666 thin solid;
 	
 }
 
-/* 
+.expChunk {
+	
+	margin-top: .25em;
+
+}
+
+.date {
+	text-align: right;
+}
+
+section p {
+	border-width: 0;
+	padding-width: 0;
+}
+
+.expChunk ul {
+	
+	margin: 0 0 0 -3em;
+	
+		
+}
+
+.expChunk li {
+	float: left;
+	margin: 0 10px 0 0;
+	list-style: none;	
+}
+
+.teachEx ul {
+}
+/*.date  {
+	float: right;	
+}
+
+ 
 	Main Navigation
 	===
 	- Apply styling only to main navigation with specificity
