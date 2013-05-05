@@ -6,18 +6,24 @@
 
 body {
 	
-	font-family: "Lora", serif;
+	font-family: 'Vollkorn', serif;;
 	
 }
 
-h1, h3, h5 {
-	font-family: "Oswald", sans-serif;
+h1, h2, h3, h4, h5 {
+	font-family: 'Nobile', sans-serif;
+	
 }
 
+h1 {
+	text-indent: -1em;
+
+}
+	
 h2 {
 	text-indent: -1em;
 	margin-bottom: 0;
-	border-bottom: #666 thin solid;
+	border-bottom: teal thin solid;
 	
 }
 
@@ -26,6 +32,28 @@ h4 {
 	margin-bottom: 0;
 	margin-bottom: -1em;
 	
+}
+
+
+a:link, 
+a:visited {
+	text-decoration: none;
+	color: teal;
+	/*letter-spacing: 2px;
+	padding: 20px 20px 20px 40px;
+	
+	text-transform: uppercase;*/
+}
+
+
+a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+
+nav a:active {
+	color: #000;
 }
 
 .expChunk {
@@ -45,7 +73,7 @@ section p {
 
 .expChunk ul {
 	
-margin: 0 0 0 -2.75em;
+   margin: 0 0 0 -1.75em;
 	
 		
 }
@@ -55,9 +83,14 @@ margin: 0 0 0 -2.75em;
 	list-style: none;	
 }
 
-.teachEx ul {
+ul.teachEx {
+	margin: -0.75em 0 0 -1.75em;
 }
 
+ul.coursework {
+	
+	margin: 1.25em 0 0 -1.75em;
+}
 
 .title {
 	text-indent: -1em;
