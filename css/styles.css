@@ -21,6 +21,13 @@ h2 {
 	
 }
 
+h4 {
+	text-indent: -1em;
+	margin-bottom: 0;
+	margin-bottom: -1em;
+	
+}
+
 .expChunk {
 	
 	margin-top: .25em;
@@ -38,23 +45,33 @@ section p {
 
 .expChunk ul {
 	
-	margin: 0 0 0 -3em;
+margin: 0 0 0 -2.75em;
 	
 		
 }
 
 .expChunk li {
-	float: left;
-	margin: 0 10px 0 0;
+	
 	list-style: none;	
 }
 
 .teachEx ul {
 }
+
+
+.title {
+	text-indent: -1em;
+	margin-bottom: -1em;
+}
+
+
 /*.date  {
 	float: right;	
 }
 
+.expChunk p {
+	margin-bottom: -.5em;
+}
  
 	Main Navigation
 	===
