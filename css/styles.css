@@ -6,7 +6,8 @@
 
 body {
 	
-	font-family: 'Vollkorn', serif;;
+	font-family: 'Vollkorn', serif;
+	;
 	
 }
 
@@ -56,10 +57,10 @@ nav a:active {
 	color: #000;
 }
 
-.expChunk {
+/*.expChunk {
 	
 	margin-top: .25em;
-
+*/
 }
 
 .date {
@@ -90,6 +91,7 @@ ul.teachEx {
 ul.coursework {
 	
 	margin: 1.25em 0 0 -1.75em;
+	float: left;
 }
 
 .title {
@@ -98,10 +100,10 @@ ul.coursework {
 }
 
 
-/*.date  {
-	float: right;	
+.date p {
+	float: left;	
 }
-
+/*
 .expChunk p {
 	margin-bottom: -.5em;
 }
