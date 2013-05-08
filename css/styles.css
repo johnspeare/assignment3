@@ -17,19 +17,20 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-	text-indent: -1em;
+	text-indent: 0em;
 
 }
 	
 h2 {
-	text-indent: -1em;
+	/*text-indent: 2 em;*/
 	margin-bottom: 0;
+	padding: 0 0em;
 	border-bottom: teal thin solid;
 	
 }
 
 h4 {
-	text-indent: -1em;
+	/*text-indent: 1 em;*/
 	margin-bottom: 0;
 	margin-bottom: -1em;
 	
@@ -67,10 +68,14 @@ nav a:active {
 	text-align: right;
 }
 
-section p {
+article p {
+	padding: 0 .9em;
+}
+
+/*section p {
 	border-width: 0;
 	padding-width: 0;
-}
+}*/
 
 .expChunk ul {
 	
@@ -86,6 +91,7 @@ section p {
 
 ul.teachEx {
 	margin: -0.75em 0 0 -1.75em;
+	padding: 0 3em;
 }
 
 ul.coursework {
@@ -102,6 +108,10 @@ ul.coursework {
 
 .date p {
 	float: left;	
+}
+
+.lastPat p {
+	padding: 0 0 1em 0;
 }
 /*
 .expChunk p {
