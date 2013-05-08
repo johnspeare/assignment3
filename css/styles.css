@@ -16,10 +16,10 @@ h1, h2, h3, h4, h5 {
 	
 }
 
-h1 {
+/*h1 {
 	text-indent: 0em;
 
-}
+}*/
 	
 h2 {
 	/*text-indent: 2 em;*/
@@ -111,7 +111,7 @@ ul.coursework {
 }
 
 .lastPat p {
-	padding: 0 0 1em 0;
+	padding: 0 0 1em .9em;
 }
 /*
 .expChunk p {
